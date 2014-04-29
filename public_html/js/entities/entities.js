@@ -20,6 +20,7 @@ game.PlayerEntity = me.ObjectEntity.extend({
        }
        
        this.updateMovement();
+       this.parent();
        return true;
    }        
 });

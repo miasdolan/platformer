@@ -6,7 +6,7 @@ game.PlayScreen = me.ScreenObject.extend({
 		// reset the score
 		game.data.score = 0;
                 
-                me.levelDirector.loadLevel("mylevel01");
+                me.levelDirector.loadLevel("level01");
                 
                 var player = new game.PlayerEntity(0, 420, {});
                 me.game.add(player, this.z);
